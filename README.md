@@ -53,7 +53,7 @@ Finance_Dashboard/ ├── src/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/Finance_Dashboard.git
+   git clone https://github.com/Momo-gabriel/Finance_Dashboard
    cd Finance_Dashboard
 
 
