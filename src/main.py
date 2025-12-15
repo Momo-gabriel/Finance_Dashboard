@@ -6,7 +6,7 @@ def main():
     ensure_data_dirs()
     root = tk.Tk()
     root.title("Finance Dashboard")
-    root.geometry("1000x700")  # Bigger starting window
+    root.geometry("1000x700")  # starting window
     FinanceDashboard(root)
     root.mainloop()
 

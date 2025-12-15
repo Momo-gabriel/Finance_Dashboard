@@ -30,7 +30,6 @@ class Config:
     OFFLINE_CACHE = "src/data/cache.json"
 
 def get_client(name: str = None):
-    """Factory to return the correct API client."""
     from api import YahooFinanceClient
     if name is None or name == Config.DEFAULT_CLIENT:
         return YahooFinanceClient()
