@@ -1,4 +1,4 @@
-# verify_btc.py
+# for testing API and normalization
 from api import YahooFinanceClient
 from util.util import normalize_symbol
 
